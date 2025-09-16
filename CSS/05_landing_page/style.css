@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Tagesschrift&display=swap');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Asimovian", sans-serif;
+  height: 100%;
+  color: white;
+}
+
+.container {
+  background: linear-gradient(135deg, black, #d12b2b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  background: linear-gradient(135deg, #d12b2b, black);
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 776px;
+}
+
+.logo {
+  width: 150px;
+  object-fit: contain;
+}
+h1 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: gold;
+}
+
+p {
+  color: lightcyan;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(90deg, black, #d12b2b);
+  color: #f7e36e;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background-color 0.7s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+  background-image: none;
+  background-color: black;
+  box-shadow: 0 4px 10px white;
+}
