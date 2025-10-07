@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <style>
+      body {
+        background: linear-gradient(145deg, blue, red);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        background-color: #2f6690;
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: none;
+        transition: box-shadow 0.2s ease-in-out;
+        border-radius: 8px;
+      }
+
+      .container:hover{
+        box-shadow: 0 10px 15px black;
+
+      }
+
+      h2{
+        background-color: lin;
+      }
+      img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        background-color: #000;
+        box-shadow: none;
+      }
+      .btn{
+        display: flex;
+        justify-content: space-around;
+      }
+      button {
+        background-color: #81c3d7;
+        width: 100px;
+        height: 40px;
+        border: 2px black solid;
+        font-weight: bolder;
+        box-shadow: none;
+        transition: box-shadow 0.2s ease-in-out;
+      }
+
+      button:hover{
+        box-shadow: 0 4px 10px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Best Shoes</h2>
+      <img src="/CSS/images/shoes.webp" alt="Shoes Image" />
+      <div class="btn">
+        <button class="buy">Buy Now</button>
+        <button class="cart">Add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>
